@@ -3,8 +3,8 @@
 Works with a chat model with tool calling support.
 """
 
-from prompts import SYSTEM_PROMPT
 from utils import load_chat_model
+from prompts import SYSTEM_PROMPT
 from state import InputState
 from langgraph.prebuilt import create_react_agent
 from langgraph.graph import StateGraph, START, END
